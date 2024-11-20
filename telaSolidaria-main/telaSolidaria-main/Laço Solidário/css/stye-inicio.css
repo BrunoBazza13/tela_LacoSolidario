@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Quicksand", sans-serif; 
+}
+
+/* CABEÇALHO */
+
+.cabecalho{ 
+    display:flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 21px;
+    padding: 0.5vh 1vh;
+}
+
+
+.eventos-bold, .sobre-bold {
+    font-weight: bold;
+}
+
+.botao-dados-usuario{
+    padding: 5px;
+    background-color: #B127D9;
+    border-radius: 5px;
+    border: 0px solid #3c014d;
+    width: 150px;
+}
+
+.botao-dados-usuario:hover{
+    cursor: pointer;
+    background-color: #C88DF5;
+    fill: white;
+    color: #3c004d;
+}
+
+.meu-perfil{
+    color: white;
+}
+
+#user-login-icon{
+    margin-right: 1.7vh;
+}
+
+#user-login-icon:hover{
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    background-color: white;
+}
+    
+
+#inicio-cabecalho{
+    font-weight: bold;
+}
+
+#botao-doar {
+    color:#418747;
+    border-color:#418747;
+    font-size: 21px;
+}
+
+svg{
+    margin-bottom: 2.5px;
+    margin-right: 4px;
+}
+
+#botao-doar:hover, svg:hover{
+    color:white;
+    background-color: #418747;
+    border-color: white;
+}
+
+
+.menu-navegacao, li{
+    display: inline;
+    margin-left: 24px;
+    cursor:pointer;
+    list-style: none;
+}
+
+li:hover{
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cadastro-inicio {
+    background-color: #418747;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.login-inicio{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+
+.carousel-inner{
+    margin-top: 15px;
+}
+
+.eventos{
+    display: flex;
+    margin-top: 18px;
+    justify-content: center;
+    margin-bottom: 40px;
+    background-image: url('../img/fundo1.jpg');
+    padding: 40px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    
+}
+
+.eventos-titulo{
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.eventos-single{
+    background-color: white;
+    width: 20%;
+    margin-right: 2%;
+    padding:40px 20px;
+    font-size: 20px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.eventos-single:hover{
+    transform: scale(1.0);
+    transition: transform 0.3s ease;
+}
+
+.nome-evento{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+#banner-da-lista-eventos{
+    border-radius: 8px;
+}
+
+
+
+/*--------- INICIO AUTENTICADO ----------------*/
+
+.sair-inicio{
+    background-color: red;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+.estilo-sair{
+    color: white;
+}

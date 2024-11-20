@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Quicksand", sans-serif; 
+}
+
+.cabecalho{ 
+    display:flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 21px;
+    padding: 0.5vh 1vh;
+}
+
+
+.eventos-bold, .sobre-bold {
+    font-weight: bold;
+}
+
+
+.meu-perfil{
+    color: white;
+}
+
+#user-login-icon{
+    margin-right: 1.7vh;
+}
+
+#user-login-icon:hover{
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    background-color: white;
+}
+    
+
+
+#botao-doar {
+    color:#418747;
+    border-color:#418747;
+    font-size: 21px;
+}
+
+svg{
+    margin-bottom: 2.5px;
+    margin-right: 4px;
+}
+
+#botao-doar:hover, svg:hover{
+    color:white;
+    background-color: #418747;
+    border-color: white;
+}
+
+
+.menu-navegacao, li{
+    display: inline;
+    margin-left: 24px;
+    cursor:pointer;
+    list-style: none;
+}
+
+li:hover{
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cadastro-inicio {
+    background-color: #418747;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.login-inicio{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+:root {
+    --color-white: #FFFFFF;
+
+}
+
+.logo {
+    width: 160px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+}
+
+.h2Dois {
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+
+.h2Dois:hover {
+    font-size: 12px;
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h3 {
+    color: var(--color-white);
+    font-size: 25px;
+    margin-right: 5%;
+    margin-top: 5%;
+    color: var(--color-white);
+}
+
+.h3Dois {
+    color: var(--color-white);
+    margin-left: 10vh;
+    margin-bottom: 4vh;
+    font-size: 30px;
+}
+
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/fundo1.jpg);
+    background-repeat: no-repeat;
+}
+
+#dadosLogin_form {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 80px;
+    border-radius: 12px;
+    gap: 30px;
+    height: fit-content;
+    justify-content: center;
+}
+
+#form_header {
+    display: flex;
+    align-items: center;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.input-box {
+    font-size: 14px;
+    color: black;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 3px;
+    cursor: text;
+    border-bottom: 1px solid #FFFFFF;
+    margin-top: 1vh;
+}
+
+.input-field input {
+    border: none;
+    background-color: transparent;
+    width: 260px;
+    font-size: 17px;
+    padding: 0px 5px;
+    color: white;
+    font-weight: 800;
+}
+
+.input-field input:focus {
+    outline: none;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.meuBotao {
+    padding: 8px 17px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color:#418747;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.meuBotao:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+    color:black;
+}
+
+.meuBotaoDois {
+    padding: 10px 15px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #418747;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-left: 45px;
+    transition: background-color 0.3s;
+    margin-left: 20px;
+}
+
+.meuBotaoDois:hover {
+    background-color: #6FB951;
+    color: white;
+}
+
+

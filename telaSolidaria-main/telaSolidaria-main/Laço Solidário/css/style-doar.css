@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    font-family: "Quicksand", sans-serif; 
+}
+
+
+.cabecalho{ 
+    display:flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 21px;
+    padding: 0.5vh 1vh;
+}
+
+
+.eventos-bold, .sobre-bold {
+    font-weight: bold;
+}
+
+
+.meu-perfil{
+    color: white;
+}
+
+#user-login-icon{
+    margin-right: 1.7vh;
+}
+
+#user-login-icon:hover{
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    background-color: white;
+}
+    
+
+
+#botao-doar {
+    color:white;
+    background-color: #418747;
+    border-color: white;
+    font-size: 21px;
+}
+
+svg{
+    margin-bottom: 2.5px;
+    margin-right: 4px;
+}
+
+#botao-doar:hover, svg:hover{
+    color:white;
+    background-color: #418747;
+    border-color: white;
+}
+
+
+.menu-navegacao, li{
+    display: inline;
+    margin-left: 24px;
+    cursor:pointer;
+    list-style: none;
+}
+
+li:hover{
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cadastro-inicio {
+    background-color: #418747;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.login-inicio{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+.campos-doacao {
+    padding: 70px;
+}
+
+.h3Dois {
+    color: #418747;
+    margin-bottom: 4vh;
+}
+
+
+.logo {
+    font-size: 24px;
+    color: #2d7a3e;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.btn-doar {
+    background-color: #2d7a3e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*h1 {
+    font-size: 24px;
+    color: #2d7a3e;
+    margin: 20px 0;
+}*/
+
+.categoria {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.categoria-btn {
+    background-color: #e5f4e7;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 21px;
+    color: #2d7a3e;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: box-shadow 0.3s ease;
+    font-weight: bold;
+}
+
+
+
+/*.categoria-btn:hover {
+    background-color: #2d7a3e;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+
+.categoria-btn:active {
+    background-color: #2d7a3e;  |
+    color: white;
+    font-weight: bold;
+} */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+textarea,
+input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #f2faf4;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+input {
+    width: 100%;
+}
+
+.meuBotaoDoar {
+    padding: 10px 15px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #418747;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-left: 45px;
+    transition: background-color 0.3s;
+    margin-left: 20px;
+}
+
+.meuBotaoDoar:hover {
+    background-color: #6FB951;
+    color: white;
+}
+
+.botao-selecionado {
+    background-color: #6FB951;
+    color: white;
+}
+
+.descricao-itens{
+    font-size: 20px;
+    font-weight: bold;
+    color: #418747;
+}
+
+.endereco-itens{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.icone-food{
+    margin-right: 7px;
+    margin-bottom: 6px;
+}
+
+.icone-food:hover {
+    background-color: #a8e88f94;
+}
+
+.opcoes{
+    border-radius: 8px;
+
+}
+
+.opcao-inativa{
+    color: grey;
+}
+
+.categoria {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.categoria-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+
+.categoria-input:checked {
+    fill: #5A9B2E; /* Cor de destaque quando selecionado */
+}
+
+.icone-food:hover{
+    background-color: white;
+}
+
+.categoria-label input:checked {
+    fill: #A8E88F;
+}
+
+.categoria-input:checked + .icone-food {
+    transform: scale(1.1);
+}
+
+.categoria-input {
+    display:flexbox;
+}
+
+
+.fundo-branco-doacoes{
+    background-color: #a8e88f94;
+    padding: 30px;
+    border-radius: 20px;
+    
+}
+
+/*--------- INICIO AUTENTICADO ----------------*/
+
+.sair-inicio{
+    background-color: red;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+.estilo-sair{
+    color: white;
+}

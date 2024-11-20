@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Quicksand", sans-serif; 
+}
+
+/* CABEÇALHO */
+
+.cabecalho{ 
+    display:flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 21px;
+    padding: 0.5vh 1vh;
+}
+
+
+.eventos-bold, .sobre-bold {
+    font-weight: bold;
+}
+
+
+.meu-perfil{
+    color: white;
+}
+
+#user-login-icon{
+    margin-right: 1.7vh;
+}
+
+#user-login-icon:hover{
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    background-color: white;
+}
+    
+
+#botao-doar {
+    color:#418747;
+    border-color:#418747;
+    font-size: 21px;
+}
+
+svg{
+    margin-bottom: 2.5px;
+    margin-right: 4px;
+}
+
+#botao-doar:hover, svg:hover{
+    color:white;
+    background-color: #418747;
+    border-color: white;
+}
+
+#minhas-doacoes{
+    font-weight: bold;
+}
+
+.menu-navegacao, li{
+    display: inline;
+    margin-left: 24px;
+    cursor:pointer;
+    list-style: none;
+}
+
+li:hover{
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cadastro-inicio {
+    background-color: #418747;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.login-inicio{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#botao-meus-eventos2 {
+    color:white;
+    background-color: #418747;
+    border-color: white;
+}
+
+.titulo-carrinho-ingressos{
+    color:#418747;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3.5vh;
+}
+
+#delete-doacao:hover{
+    background-color: white;
+    transform: scale(1.3);
+    cursor: pointer;
+    fill:red;
+}
+
+.carrinho-doacoes{
+    width:100%;
+    border-collapse: collapse;
+    border-radius: 10px; /* Arredonda os cantos de cada item */
+    margin: 10px 0; /* Adiciona espaçamento entre os itens */
+    padding: 10px; /* Espaçamento interno */
+    background-color: #f9f9f9; /* Cor de fundo clara para destacar os itens */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra para dar um efeito de elevação */
+}
+
+
+tr{
+    border-bottom: 0.5px solid #ccc;
+    padding-bottom: 100px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    color: #aaa;
+    font-weight: bold;
+}
+
+th{
+    text-align: center;
+    color: black;
+    font-size: 2.6vh;
+    border-radius: 10px;
+}
+
+td{
+    text-align: center;
+}
+
+ 
+.carrinho-ingressos td {
+    padding: 4vh; 
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+
+.lista-ingressos{
+    margin-top: 8vh;
+}
+
+.nome-evento-carrinho{
+    cursor:pointer;
+}
+
+.nome-evento-carrinho:hover{
+    font-weight: bold;
+    color: #418747;
+    text-decoration: underline;
+}
+
+/*--------- INICIO AUTENTICADO ----------------*/
+
+.sair-inicio{
+    background-color: red;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+.estilo-sair{
+    color: white;
+}
